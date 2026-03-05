@@ -1,0 +1,104 @@
+/* DISPLAY */
+.d-block{display:block}
+.d-inline{display:inline}
+.d-inline-block{display:inline-block}
+.d-flex{display:flex}
+.d-inline-flex{display:inline-flex}
+.d-grid{display:grid}
+.d-inline-grid{display:inline-grid}
+.d-table{display:table}
+.d-table-row{display:table-row}
+.d-table-cell{display:table-cell}
+.d-table-caption{display:table-caption}
+.d-list-item{display:list-item}
+.d-run-in{display:run-in}
+.d-contents{display:contents}
+.d-flow-root{display:flow-root}
+.d-none{display:none}
+
+/* VISIBILITY */
+.visible{visibility:visible}
+.invisible{visibility:hidden}
+.collapse{visibility:collapse}
+
+/* OVERFLOW */
+.overflow-auto{overflow:auto}
+.overflow-hidden{overflow:hidden}
+.overflow-visible{overflow:visible}
+.overflow-scroll{overflow:scroll}
+.overflow-clip{overflow:clip}
+
+/* OVERFLOW X */
+.overflow-x-auto{overflow-x:auto}
+.overflow-x-hidden{overflow-x:hidden}
+.overflow-x-visible{overflow-x:visible}
+.overflow-x-scroll{overflow-x:scroll}
+.overflow-x-clip{overflow-x:clip}
+
+/* OVERFLOW Y */
+.overflow-y-auto{overflow-y:auto}
+.overflow-y-hidden{overflow-y:hidden}
+.overflow-y-visible{overflow-y:visible}
+.overflow-y-scroll{overflow-y:scroll}
+.overflow-y-clip{overflow-y:clip}
+
+/* FLOAT */
+.float-left{float:left}
+.float-right{float:right}
+.float-inline-start{float:inline-start}
+.float-inline-end{float:inline-end}
+.float-none{float:none}
+
+/* CLEAR */
+.clear-left{clear:left}
+.clear-right{clear:right}
+.clear-both{clear:both}
+.clear-inline-start{clear:inline-start}
+.clear-inline-end{clear:inline-end}
+.clear-none{clear:none}
+
+/* BOX SIZING */
+.box-border{box-sizing:border-box}
+.box-content{box-sizing:content-box}
+
+/* CONTAIN */
+.contain-none{contain:none}
+.contain-strict{contain:strict}
+.contain-content{contain:content}
+.contain-size{contain:size}
+.contain-layout{contain:layout}
+.contain-style{contain:style}
+.contain-paint{contain:paint}
+
+/* ISOLATION */
+.isolate{isolation:isolate}
+.isolation-auto{isolation:auto}
+
+/* OBJECT FIT */
+.object-contain{object-fit:contain}
+.object-cover{object-fit:cover}
+.object-fill{object-fit:fill}
+.object-none{object-fit:none}
+.object-scale-down{object-fit:scale-down}
+
+/* OBJECT POSITION */
+.object-center{object-position:center}
+.object-top{object-position:top}
+.object-bottom{object-position:bottom}
+.object-left{object-position:left}
+.object-right{object-position:right}
+
+.object-top-left{object-position:top left}
+.object-top-right{object-position:top right}
+.object-bottom-left{object-position:bottom left}
+.object-bottom-right{object-position:bottom right}
+
+.object-left-top{object-position:left top}
+.object-left-bottom{object-position:left bottom}
+.object-right-top{object-position:right top}
+.object-right-bottom{object-position:right bottom}
+
+.object-center-top{object-position:center top}
+.object-center-bottom{object-position:center bottom}
+.object-left-center{object-position:left center}
+.object-right-center{object-position:right center}

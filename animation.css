@@ -1,0 +1,198 @@
+/* ---------------- TRANSFORM ---------------- */
+
+.scale-50{transform:scale(.5)}
+.scale-75{transform:scale(.75)}
+.scale-90{transform:scale(.9)}
+.scale-100{transform:scale(1)}
+.scale-110{transform:scale(1.1)}
+.scale-125{transform:scale(1.25)}
+.scale-150{transform:scale(1.5)}
+
+.rotate-45{transform:rotate(45deg)}
+.rotate-90{transform:rotate(90deg)}
+.rotate-180{transform:rotate(180deg)}
+
+.skew-x-12{transform:skewX(12deg)}
+.skew-y-12{transform:skewY(12deg)}
+
+.translate-x-50{transform:translateX(50px)}
+.translate-y-50{transform:translateY(50px)}
+
+
+/* ---------------- TRANSFORM ORIGIN ---------------- */
+
+.origin-center{transform-origin:center}
+.origin-top{transform-origin:top}
+.origin-bottom{transform-origin:bottom}
+.origin-left{transform-origin:left}
+.origin-right{transform-origin:right}
+
+
+/* ---------------- TRANSFORM STYLE ---------------- */
+
+.transform-flat{transform-style:flat}
+.transform-3d{transform-style:preserve-3d}
+
+
+/* ---------------- PERSPECTIVE ---------------- */
+
+.perspective-500{perspective:500px}
+.perspective-800{perspective:800px}
+.perspective-1000{perspective:1000px}
+
+
+/* ---------------- PERSPECTIVE ORIGIN ---------------- */
+
+.perspective-center{perspective-origin:center}
+.perspective-top{perspective-origin:top}
+.perspective-bottom{perspective-origin:bottom}
+
+
+/* ---------------- TRANSITION ---------------- */
+
+.transition{transition:all .3s ease}
+
+.transition-all{transition-property:all}
+.transition-transform{transition-property:transform}
+.transition-opacity{transition-property:opacity}
+
+.duration-100{transition-duration:.1s}
+.duration-200{transition-duration:.2s}
+.duration-300{transition-duration:.3s}
+.duration-500{transition-duration:.5s}
+.duration-700{transition-duration:.7s}
+.duration-1000{transition-duration:1s}
+
+.delay-100{transition-delay:.1s}
+.delay-200{transition-delay:.2s}
+.delay-300{transition-delay:.3s}
+
+.ease-linear{transition-timing-function:linear}
+.ease-in{transition-timing-function:ease-in}
+.ease-out{transition-timing-function:ease-out}
+.ease-in-out{transition-timing-function:ease-in-out}
+
+
+/* ---------------- CURSOR ---------------- */
+
+.cursor-pointer{cursor:pointer}
+.cursor-default{cursor:default}
+.cursor-move{cursor:move}
+.cursor-text{cursor:text}
+.cursor-wait{cursor:wait}
+.cursor-not-allowed{cursor:not-allowed}
+.cursor-crosshair{cursor:crosshair}
+
+
+/* ---------------- CARET ---------------- */
+
+.caret-red{caret-color:red}
+.caret-blue{caret-color:blue}
+.caret-green{caret-color:green}
+.caret-black{caret-color:black}
+
+
+/* ---------------- RESIZE ---------------- */
+
+.resize-none{resize:none}
+.resize{resize:both}
+.resize-x{resize:horizontal}
+.resize-y{resize:vertical}
+
+
+/* ---------------- OUTLINE ---------------- */
+
+.outline-none{outline:none}
+
+.outline-1{outline-width:1px}
+.outline-2{outline-width:2px}
+.outline-3{outline-width:3px}
+
+.outline-solid{outline-style:solid}
+.outline-dashed{outline-style:dashed}
+.outline-dotted{outline-style:dotted}
+
+.outline-red{outline-color:red}
+.outline-blue{outline-color:blue}
+.outline-green{outline-color:green}
+
+.outline-offset-2{outline-offset:2px}
+.outline-offset-4{outline-offset:4px}
+
+
+/* ---------------- APPEARANCE ---------------- */
+
+.appearance-none{appearance:none}
+.appearance-auto{appearance:auto}
+
+
+/* ---------------- SCROLL ---------------- */
+
+.scroll-auto{scroll-behavior:auto}
+.scroll-smooth{scroll-behavior:smooth}
+
+.scroll-m-10{scroll-margin:10px}
+.scroll-m-20{scroll-margin:20px}
+
+.scroll-p-10{scroll-padding:10px}
+.scroll-p-20{scroll-padding:20px}
+
+
+/* ---------------- SCROLL SNAP ---------------- */
+
+.snap-x{scroll-snap-type:x mandatory}
+.snap-y{scroll-snap-type:y mandatory}
+
+.snap-start{scroll-snap-align:start}
+.snap-center{scroll-snap-align:center}
+.snap-end{scroll-snap-align:end}
+
+
+/* ---------------- ANIMATIONS ---------------- */
+
+@keyframes fade-in{
+0%{opacity:0}
+100%{opacity:1}
+}
+
+@keyframes fade-out{
+0%{opacity:1}
+100%{opacity:0}
+}
+
+@keyframes slide-up{
+0%{transform:translateY(40px);opacity:0}
+100%{transform:translateY(0);opacity:1}
+}
+
+@keyframes slide-down{
+0%{transform:translateY(-40px);opacity:0}
+100%{transform:translateY(0);opacity:1}
+}
+
+@keyframes zoom-in{
+0%{transform:scale(.7);opacity:0}
+100%{transform:scale(1);opacity:1}
+}
+
+@keyframes bounce{
+0%,100%{transform:translateY(0)}
+50%{transform:translateY(-20px)}
+}
+
+@keyframes spin{
+0%{transform:rotate(0)}
+100%{transform:rotate(360deg)}
+}
+
+.fade-in{animation:fade-in 1s forwards}
+.fade-out{animation:fade-out 1s forwards}
+
+.slide-up{animation:slide-up .6s forwards}
+.slide-down{animation:slide-down .6s forwards}
+
+.zoom-in{animation:zoom-in .5s forwards}
+
+.bounce{animation:bounce 1s infinite}
+
+.spin{animation:spin 1s linear infinite}

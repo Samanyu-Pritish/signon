@@ -1,0 +1,11 @@
+/* Connect all css files to this one file */
+
+@import url("https://cdn.jsdelivr.net/gh/Samanyu-Pritish/signon/spacing.css");
+@import url("https://cdn.jsdelivr.net/gh/Samanyu-Pritish/signon/typography.css");
+@import url("https://cdn.jsdelivr.net/gh/Samanyu-Pritish/signon/border_effects.css");
+@import url("https://cdn.jsdelivr.net/gh/Samanyu-Pritish/signon/background.css");
+@import url("https://cdn.jsdelivr.net/gh/Samanyu-Pritish/signon/layout.css");
+@import url("https://cdn.jsdelivr.net/gh/Samanyu-Pritish/signon/animation.css");
+@import url("https://cdn.jsdelivr.net/gh/Samanyu-Pritish/signon/flexgrid.css");
+@import url("https://cdn.jsdelivr.net/gh/Samanyu-Pritish/signon/size.css");
+@import url("https://cdn.jsdelivr.net/gh/Samanyu-Pritish/signon/position.css");

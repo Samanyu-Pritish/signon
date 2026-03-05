@@ -1,0 +1,146 @@
+/* Text Color */
+.text-black{color:#000;}
+.text-white{color:#fff;}
+.text-gray{color:#6b7280;}
+.text-red{color:#ef4444;}
+.text-green{color:#22c55e;}
+.text-blue{color:#3b82f6;}
+.text-yellow{color:#eab308;}
+.text-purple{color:#8b5cf6;}
+.text-pink{color:#ec4899;}
+.text-orange{color:#f97316;}
+
+/* Font Family */
+.font-sans{font-family:sans-serif;}
+.font-serif{font-family:serif;}
+.font-mono{font-family:monospace;}
+.font-system{font-family:system-ui;}
+
+/* Font Size */
+.text-xs{font-size:0.75rem;}
+.text-sm{font-size:0.875rem;}
+.text-base{font-size:1rem;}
+.text-lg{font-size:1.125rem;}
+.text-xl{font-size:1.25rem;}
+.text-2xl{font-size:1.5rem;}
+.text-3xl{font-size:1.875rem;}
+.text-4xl{font-size:2.25rem;}
+.text-5xl{font-size:3rem;}
+
+/* Font Weight */
+.font-thin{font-weight:100;}
+.font-extralight{font-weight:200;}
+.font-light{font-weight:300;}
+.font-normal{font-weight:400;}
+.font-medium{font-weight:500;}
+.font-semibold{font-weight:600;}
+.font-bold{font-weight:700;}
+.font-extrabold{font-weight:800;}
+.font-black{font-weight:900;}
+
+/* Font Style */
+.italic{font-style:italic;}
+.not-italic{font-style:normal;}
+
+/* Font Variant */
+.small-caps{font-variant:small-caps;}
+.normal-variant{font-variant:normal;}
+
+/* Font Stretch */
+.stretch-normal{font-stretch:normal;}
+.stretch-condensed{font-stretch:condensed;}
+.stretch-expanded{font-stretch:expanded;}
+
+/* Line Height */
+.leading-none{line-height:1;}
+.leading-tight{line-height:1.25;}
+.leading-snug{line-height:1.375;}
+.leading-normal{line-height:1.5;}
+.leading-relaxed{line-height:1.625;}
+.leading-loose{line-height:2;}
+
+/* Letter Spacing */
+.tracking-tight{letter-spacing:-0.05em;}
+.tracking-normal{letter-spacing:0;}
+.tracking-wide{letter-spacing:0.05em;}
+.tracking-wider{letter-spacing:0.1em;}
+.tracking-widest{letter-spacing:0.2em;}
+
+/* Word Spacing */
+.word-normal{word-spacing:normal;}
+.word-wide{word-spacing:0.25em;}
+.word-wider{word-spacing:0.5em;}
+
+/* Text Align */
+.text-left{text-align:left;}
+.text-center{text-align:center;}
+.text-right{text-align:right;}
+.text-justify{text-align:justify;}
+
+/* Text Align Last */
+.text-last-left{text-align-last:left;}
+.text-last-center{text-align-last:center;}
+.text-last-right{text-align-last:right;}
+.text-last-justify{text-align-last:justify;}
+
+/* Text Decoration */
+.no-underline{text-decoration:none;}
+.underline{text-decoration:underline;}
+.overline{text-decoration:overline;}
+.line-through{text-decoration:line-through;}
+
+/* Text Decoration Line */
+.decoration-underline{text-decoration-line:underline;}
+.decoration-overline{text-decoration-line:overline;}
+.decoration-line-through{text-decoration-line:line-through;}
+
+/* Text Decoration Style */
+.decoration-solid{text-decoration-style:solid;}
+.decoration-double{text-decoration-style:double;}
+.decoration-dotted{text-decoration-style:dotted;}
+.decoration-dashed{text-decoration-style:dashed;}
+.decoration-wavy{text-decoration-style:wavy;}
+
+/* Text Decoration Color */
+.decoration-red{text-decoration-color:red;}
+.decoration-blue{text-decoration-color:blue;}
+.decoration-green{text-decoration-color:green;}
+.decoration-black{text-decoration-color:black;}
+
+/* Text Transform */
+.uppercase{text-transform:uppercase;}
+.lowercase{text-transform:lowercase;}
+.capitalize{text-transform:capitalize;}
+.normal-case{text-transform:none;}
+
+/* Text Indent */
+.indent-0{text-indent:0;}
+.indent-1{text-indent:1rem;}
+.indent-2{text-indent:2rem;}
+.indent-3{text-indent:3rem;}
+
+/* Text Shadow */
+.text-shadow-sm{text-shadow:1px 1px 2px rgba(0,0,0,0.3);}
+.text-shadow{text-shadow:2px 2px 4px rgba(0,0,0,0.4);}
+.text-shadow-lg{text-shadow:4px 4px 8px rgba(0,0,0,0.5);}
+
+/* White Space */
+.whitespace-normal{white-space:normal;}
+.whitespace-nowrap{white-space:nowrap;}
+.whitespace-pre{white-space:pre;}
+.whitespace-pre-line{white-space:pre-line;}
+.whitespace-pre-wrap{white-space:pre-wrap;}
+
+/* Direction */
+.ltr{direction:ltr;}
+.rtl{direction:rtl;}
+
+/* Writing Mode */
+.write-horizontal{writing-mode:horizontal-tb;}
+.write-vertical{writing-mode:vertical-rl;}
+.write-vertical-lr{writing-mode:vertical-lr;}
+
+/* Hyphens */
+.hyphens-none{hyphens:none;}
+.hyphens-manual{hyphens:manual;}
+.hyphens-auto{hyphens:auto;}
